@@ -1,3 +1,44 @@
+// Solusi dari masalah nomor 2 pada tlx.toki.or.id
+// 
+/*
+Deskripsi
+Kali ini Pak Dengklek bermain lagi dengan bebek-bebeknya menggunakan matriks. Pak Dengklek memberikan bebek-bebeknya sebuah matriks berukuran N kali M lalu sejumlah operasi rotasi dan refleksi. Tugas bebek-bebek adalah melakukan operasi rotasi dan refleksi tersebut terhadap matriks yang diberikan. Merasa bosan dengan permainan ini, para bebek meminta bantuan Anda untuk membuatkan sebuah program yang dapat mencetak kembali matriks yang diberikan Pak Dengklek setelah melalui serangkaian operasi rotasi dan refleksi tersebut.
+
+Format Masukan
+Baris pertama berisi 3 buah bilangan bulat, N dan M (1 ≤ N, M ≤ 100) yang menyatakan banyaknya baris dan kolom pada matriks, serta X (1 ≤ X ≤ 100) yang menyatakan banyaknya operasi yang dilakukan. N baris berikutnya berisi masing-masing M elemen matriks. Setiap elemen adalah bilangan bulat dari 1 sampai 100, inklusif. X baris berikutnya, masing-masing berisi sebuah operasi matriks, antara lain:
+
+_, merefleksikan matriks berdasarkan garis horizontal
+|, merefleksikan matriks berdasarkan garis vertikal
+90, merotasikan matriks 90 derajat searah jarum jam
+180, merotasikan matriks 180 derajat searah jarum jam
+270, merotasikan matriks 270 derajat searah jarum jam
+Format Keluaran
+Matriks yang diberikan pada masukan setelah melalui rangkaian operasi refleksi dan rotasi.
+
+Contoh Masukan 1
+3 3 2
+1 2 3
+4 5 6
+7 8 9
+_
+270
+Contoh Keluaran 1
+9 6 3
+8 5 2
+7 4 1
+Contoh Masukan 2
+3 3 2
+1 2 3
+4 5 6
+7 8 9
+|
+90
+Contoh Keluaran 2
+9 6 3
+8 5 2
+7 4 1
+*/
+
 #include <stdio.h>
 #include <string.h>
 
