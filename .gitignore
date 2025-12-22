@@ -1,0 +1,9 @@
+# Abaikan file hasil compile
+*.o
+*.out
+*.exe
+bin/
+build/
+.vscode/
+.idea/
+cmake-build-debug/
